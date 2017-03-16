@@ -1,0 +1,75 @@
+body {
+	background-image: url("https://images8.alphacoders.com/599/thumb-1920-599088.jpg");
+	font-family: 'Lemonada', cursive;
+}
+
+h1 {
+	font-size: 35px;
+	font-family: 'Diplomata SC', cursive;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	border-radius: 10px;
+}
+
+.pageHeader,
+.infoBlock,
+.scoreMessage,
+.crystal,
+.scoreBox,
+.randomNumber {
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.pageHeader {
+	color: white;
+	padding: 5px;
+}
+
+small {
+	color: white;
+}
+
+.infoBlock {
+	background-color: #D7A667;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.infoBlock p {
+	margin-bottom: 10px;
+}
+
+.randomNumber {
+	color: white;
+	margin-bottom: 10px;
+	height: 100px;
+	border: 2px solid #fff;
+}
+
+.scoreMessage {
+	color: white;
+	
+	height: 100px;
+	border: 2px solid #fff;
+}
+
+.crystal {
+	height: 75px;
+	margin-bottom: 10px;
+}
+
+.crystal:hover { 
+    cursor: pointer;
+}
+
+.scoreBox {
+	height: 100px;
+	border: 2px solid #fff;
+	color: white;
+}

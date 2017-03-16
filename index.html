@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treasure Hunting for Dummies</title>
+
+	<!-- reset css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- custome css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Lemonada" rel="stylesheet">
+
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+	
+	<!-- container -->
+	<div class="container">
+		<div class="row">
+			<div class="pageHeader text-center">
+			  <h1>Treasure Hunting <small>for dummies</small></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 infoBlock text-center">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.</p>
+				<p>You win the game by matching your score to a randomly generated number. You lose if your score total exceeds that random number.</p>
+				<p>The value of each crystal is hidden until you click on it.</p>
+				<p>Each time the game starts, the value of the crystals will change.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-4 text-center randomNumber"><h1 id="randomNumber"></h1></div>
+			<div class="col-md-4 scoreMessage text-center">
+				<h2>Wins: <span id="wins">0</span></h2>
+				<h2>Losses: <span id="losses">0</span></h2>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+		<div class="row text-center">
+			<img class="crystal" id="red" src="assets/images/red.png">
+			<img class="crystal" id="blue" src="assets/images/blue.png">
+			<img class="crystal" id="yellow" src="assets/images/yellow.png">
+			<img class="crystal" id="green" src="assets/images/green.png">
+		</div>
+
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 text-center scoreBox">
+				<p>Your total score is:</p>
+				<h1 id="scoreTotal"></h1>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+	<!-- end container -->
+</body>
+</html>
